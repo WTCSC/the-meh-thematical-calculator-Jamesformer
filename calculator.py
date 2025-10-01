@@ -11,25 +11,26 @@ def division(x, y):
     total = x / y
     return total
 
+print("ugh. welcome to meh-culator what can I forcefully be of assistance today.")
 number1 = float(input("what is your first number: "))
 number2 = float(input("what is your second number: "))
 operation = input("what operation would you like to do: ")
 if operation == "+":
     print("your number is")
     print(addition(number1, number2))
-    print("Dont know why you asked me to do your math lazy.")
+    print("Have a meh day. ")
 if operation == "-":
     print("your number is")
     print(subtraction(number1, number2))
-    print("Dont know why you asked me to do your math lazy.")
+    print("are we done now.")
 if operation == "*":
     print("your number is")
     print(multiplication(number1, number2))
-    print("Dont know why you asked me to do your math lazy.")
+    print("are we done now.")
 if operation == "/":
-    if number1 == "0" or number2 == "0":
+    if number1 == 0 or number2 == 0:
         print("You really flunked out of the 2nd grade didn't you. That is IMPOSSIBLE stupid.")
-    elif not number1 == "0" or number2 == "0":
+    elif number1 > 0  or number2 > 0:
             print("your number is")
             print(division(number1, number2))
-            print("Dont know why you asked me to do your math lazy.")
+            print("have a truly meh day.")
