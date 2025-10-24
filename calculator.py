@@ -8,8 +8,11 @@ def multiplication(x, y):
     total = x * y
     return total
 def division(x, y):
-    total = x / y
-    return total
+    if x == 0 or y == 0:
+        return 0
+    if x > 0 or y > 0:
+        total = x / y
+        return total
 
 print("ugh. welcome to meh-culator what can I forcefully be of assistance today.")
 number1 = float(input("what is your first number: "))

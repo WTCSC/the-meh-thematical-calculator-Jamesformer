@@ -28,7 +28,7 @@ To contribute to this project you can submit a issues report in the issues tab r
 You can also contribute to this project by commenting in the feedback pull request in the pull request tab
 
 ## testing
-You can run this code through Pytest to check for errors and exit codes
+You can run this code through Pytest to check for errors and exit codes by cding into the meh-thematical project folder and running pytest -s into the console
 
 ## licensing
 This project is licensed under a MIT license
