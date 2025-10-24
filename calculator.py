@@ -9,7 +9,7 @@ def multiplication(x, y):
     return total
 def division(x, y):
     if x == 0 or y == 0:
-        return 0
+        return ""
     if x > 0 or y > 0:
         total = x / y
         return total

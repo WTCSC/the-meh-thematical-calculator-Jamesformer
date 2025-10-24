@@ -26,5 +26,5 @@ def test_division_numbers():
 def test_division_singular_numbers():
     assert division(90, 1) == 90
 def test_division_no_number_black_hole_generator():
-    assert division(75, 0) == 0
+    assert division(75, 0) == ""
 
